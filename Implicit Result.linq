@@ -1,5 +1,12 @@
 <Query Kind="Program" />
 
+//Problems:
+// Result is mutable
+// Result is half full
+// Result can have mixed properties (error and value)
+// You have to understand ComplexOperation to know how to read result.
+// Violated OCP in a major way.
+
 void Main()
 {
 	var inputs = new[] { "Food", "Foo", null, };

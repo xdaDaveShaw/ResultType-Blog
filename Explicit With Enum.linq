@@ -1,5 +1,10 @@
 <Query Kind="Program" />
 
+//Problems:
+// Can still set properties that are overlooked. e.g. Type=Failure, Value = 10 and it would work.
+// Type is still mutable and half full.
+// Nothing is forcing people to check Type property first.
+
 void Main()
 {
 	var inputs = new[] { "Food", "Foo", null, };

@@ -1,5 +1,9 @@
 <Query Kind="Program" />
 
+//Problems:
+// Complex Operation is hard to test on it's own.
+// Mix of business logic with side effects.
+
 void Main()
 {
 	ComplexOperation("Food");
