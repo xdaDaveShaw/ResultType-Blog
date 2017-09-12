@@ -1,7 +1,7 @@
 <Query Kind="Program" />
 
 //Problems:
-// A lot of ceremony upfront, but easier to consume.
+// A lot of ceremony upfront, but easier to consume. One of the longest
 // Type is still mutable but now only inside the type.
 // Nothing is forcing people to check Type property first.
 // When getting a result you still don't know what to do with it.
