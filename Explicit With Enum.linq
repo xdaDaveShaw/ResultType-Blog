@@ -2,7 +2,7 @@
 
 //Problems:
 // Result is mutable
-// Result is half full
+// Result is half full (has to have defaults)
 // Result can have mixed properties (error and value)
 // Nothing is forcing people to check Type property first.
 // When getting a result you still don't know what to do with it.

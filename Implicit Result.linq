@@ -2,7 +2,7 @@
 
 //Problems:
 // Result is mutable
-// Result is half full
+// Result is half full (has to have defaults)
 // Result can have mixed properties (error and value)
 // You have to understand ComplexOperation to know how to read result.
 // Violated OCP in a major way.
