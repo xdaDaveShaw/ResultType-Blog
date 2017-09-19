@@ -59,7 +59,7 @@ class ErrorException : BusinessException
 	public ErrorException(Exception inner) : base(inner) { }
 }
 
-class BusinessException : Exception
+abstract class BusinessException : Exception
 {
 	public BusinessException(String message) : base(message) { } 
 	public BusinessException(Exception inner) : base("Something bad happened", inner) { }
