@@ -20,7 +20,7 @@ void Main()
 				Console.WriteLine(f.FailureMessage);
 				break;
 			case Error e:
-				Console.WriteLine(e);
+				Console.WriteLine(e.Exception);
 				break;
 		}
 	}
